@@ -1,0 +1,19 @@
+{
+  "name": "@elm-slate/db-events",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "license": "Unlicense",
+  "dependencies": {
+    "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
+    "co": "^4.6.0",
+    "co-read": "^0.1.1",
+    "is_js": "^0.9.0",
+    "ramda": "^0.23.0"
+  },
+  "scripts": {
+    "patch": "npm version patch && git push --follow-tags",
+    "minor": "npm version minor && git push --follow-tags"
+  },
+  "author": ""
+}
